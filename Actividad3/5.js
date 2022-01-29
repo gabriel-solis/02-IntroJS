@@ -1,6 +1,6 @@
-var num1 = prompt("Ingrese el primer número")
-var num2 = prompt("Ingrese el segundo número")
-var num3 = prompt("Ingrese el tercer número")
+var num1 = parseFloat(prompt("Ingrese el primer número"))
+var num2 = parseFloat(prompt("Ingrese el segundo número"))
+var num3 = parseFloat(prompt("Ingrese el tercer número"))
 
 if(num1==num2){
     if(num1<num3){

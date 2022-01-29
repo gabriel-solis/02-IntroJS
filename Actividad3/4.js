@@ -1,5 +1,5 @@
-var num1 = prompt("Ingrese el primer número")
-var num2 = prompt("Ingrese el segundo número")
+var num1 = parseFloat(prompt("Ingrese el primer número"))
+var num2 = parseFloat(prompt("Ingrese el segundo número"))
 if(num1<num2){
     console.log(num1 + " es el menor")
 }else{
