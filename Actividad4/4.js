@@ -1,14 +1,6 @@
-let input
-let arreglo = []
-
-while(!(input=="")){
-    input = prompt("Ingrese un carácter o una palabra")
-    arreglo.push(input)
+var contador
+for(contador=0; contador<50; contador++){
+    if((contador%2)==1){
+        console.log(contador)
+    }
 }
-let contador=0
-let cadena=""
-while(contador<arreglo.length){
-    cadena= cadena + arreglo[contador]
-    contador++
-}
-console.log(cadena)
