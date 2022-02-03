@@ -17,3 +17,6 @@ console.log(animals)
 //4 retira el elemento "eagle" del arreglo de animals
 animals.splice(0,1)
 console.log(animals)
+
+
+
