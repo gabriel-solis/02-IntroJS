@@ -22,3 +22,4 @@ var student = {
 console.log(student.name)
 console.log(student["age"])
 student.name="Steve Jobs"
+console.log(student)

@@ -13,7 +13,4 @@ var student = {
     rollno: 12
 };
 //No lo verifica, pero muestra todas las propiedades
-var existe = Object.getOwnPropertyNames(student)
-console.log(existe)
-
-
+console.log(student.hasOwnProperty("name"))
